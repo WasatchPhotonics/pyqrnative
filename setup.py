@@ -51,7 +51,7 @@ ISRELEASED          = False
 VERSION             = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
 
 
-def write_version_py(filename='pyqrnative/version.py'):
+def write_version_py(filename='PyQRNative/version.py'):
 
     try:
         gitfile = open('.git/refs/heads/master', 'r')
